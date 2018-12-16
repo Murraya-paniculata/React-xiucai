@@ -1,0 +1,139 @@
+/*红包记录*/
+.redbaglist ul li{float: left;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing:border-box;width: 25%;padding: 0 10px;position: relative;overflow: hidden;margin-bottom: 20px;}
+.redbaglist ul .newbag,.redbaglist ul .newvoucher{border: 1px solid #ececec;text-align: center;padding-top: 5px;}
+.redbaglist ul p{margin: 0;}
+.redbaglist ul .unuse{background: url(../img/unuse.png) no-repeat left top;background-size:100% 100% ;}
+.voucherlist ul .unuse{background: url(../img/v_unuse.png) no-repeat left top;background-size:100% 100% ;}
+.redbaglist ul .bagtop{color: #fff;}
+.redbaglist ul .bagtop p{margin:8px 0 4px 0;}
+.redbaglist ul .bagtop .flarger{margin: 0;}
+.flarger span{font-weight: bold;font-size: 32px;}
+.redbaglist .bagmiddle{margin-top:25px;margin-bottom: 25px;}
+.redbaglist .bagbottom{margin-top:10px;}
+.redbaglist .tag{position: absolute;top: 50%;left: 50%;margin-left: -65.5px;margin-top: -65.5px;width: 131px;height: 131px;}
+.redbaglist .tagnoactive{background: url(../img/tagnoactive.png) no-repeat center center;}
+.redbaglist .taguse{background: url(../img/taguse.png) no-repeat center center;}
+.redbaglist .tagexpired{background: url(../img/tagexpired.png) no-repeat center center;}
+.redbaglist .onceuse{display: block;width: 100%;height: 41px;line-height: 41px;border-top:1px solid #ececec;margin-top: 25px;color: #333333;font-size: 16px;}
+.redbaglist ul .use{background: url(../img/use.png) no-repeat left top;background-size:100% 100% ;}
+.page{text-align: center;margin: 25px 0;}
+.page a,.page span{display: inline-block;padding:0 10px;line-height:26px;border: 1px solid #e9e9e9;margin: 0 6px;color: #333333;}
+.page .laypage_curr{border-color: #ff5635;color: #ff5635;}
+.page .laypage_first,.page .laypage_last{border-color: #b3b3b3;}
+.redbaginformation{margin-top:30px;padding: 0 10px;}
+.redbaginformation p{color: #808080;margin-bottom:20px;}
+.redbaginformation .title{font-weight: bold;color: #333;margin: 5px 0;}
+.tips{margin: 25px 10px;border: 1px solid #ffdf77;background: #fffbed;padding:5px 10px;}
+.tips p{margin: 0;}
+.tips .tipico{color: #ffa200;background: url(../img/tip_ico.png) no-repeat left center;padding-left: 25px;}
+.fred{color: #ff5635;font-weight: bold;}
+/*我的推荐页面*/
+.myrecommend{background: #fff;border: 1px solid #e9e9e9;}
+.myrecommend .title,.mymessage .title{height: 45px;line-height: 45px;border-bottom:1px solid #e9e9e9;padding-left: 10px;}
+.myrecommend .retitle{background: url(../img/myrecomm_ico.png) no-repeat 10px center;padding-left: 32px;}
+.myinvite{margin:15px 0 8px 0;font-size: 16px;font-weight: bold;position: relative;padding: 0 10px;}
+.myinvite span{position: absolute;right: 10px;font-weight: normal;font-size: 14px;}
+.myinvite span i{font-style: normal;}
+.myinvite-lsit{width: 100%;}
+.myinvite-lsit td{width: 20%;text-align: center;}
+.myinvite-lsit thead tr{background:#efefef;height: 36px;}
+.myinvite-lsit tbody td{height: 56px;border-bottom: 1px solid #eee;}
+.myinvite-lsit .fred{font-weight: normal;}
+.invite-rule{margin: 20px 0;}
+.invite-rule .title{font-size: 16px;border: none;}
+.invite-rule p{position: relative;margin:8px 0;padding-left:23px;}
+.invite-rule p:before{position: absolute;content: "";display: block;width: 5px;height: 5px;background: #ff5635;top: 50%;margin-top: -2.5px;left:10px;}
+.copylink{padding: 0 10px;}
+.copylink input{vertical-align: middle;height: 44px;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing:border-box;}
+.copylink .inputstyle{padding: 2px 10px;background: #f7f7f7;border: 1px solid #dfdfdf;width: 355px;}
+.copylink .copypaste{background: #ff5635;width: 147px;color: #fff;}
+.copylink p{color: #808080;margin:10px 0 25px 0;}
+.copy-tips{background: rgba(0,0,0,.6);border-radius: 4px;color: #fff;position: fixed;z-index: 199;top: 50%;left: 50%;min-width:470px;min-height: 40px;margin-top: -20px;margin-left: -235px;line-height: 40px;text-align: center;}
+/*我的消息*/
+.mymessage .retitle{background: url(../img/msg_ico.png) no-repeat 10px center;padding-left: 32px;}
+.noticelist ul{padding: 0 10px;}
+.noticelist li{position: relative;border-bottom: 1px solid #e9e9e9;padding: 15px 0;}
+.noticelist li a{display: block;position: absolute;width: 100%;height: 100%;left: 0;top: 0;}
+.noticelist li .ntitle{position: relative;margin: 5px 0;padding-left:10px;}
+.noticelist li .ntitle:before{content: "";display: block;position: absolute;width: 5px;height: 5px;background: #7a7a7a;top: 50%;margin-top: -2.5px;left:0;}
+.noticelist li .ntitle p{width:88%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: 16px;}
+.noticelist li .ntitle .time{position: absolute;color: #808080;right: 0;top: 0;}
+.noticelist li .rtitle{position: relative;margin: 5px 0;padding-left:10px;}
+.noticelist li .rtitle:before{content: "";display: block;position: absolute;width: 5px;height: 5px;background: #ff5635;top: 50%;margin-top: -2.5px;left:0;}
+.noticelist li .rtitle p{width:88%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: 16px;}
+.noticelist li .rtitle .time{position: absolute;color: #808080;right: 0;top: 0;}
+.noticelist li .fgray{color: #808080;padding: 0 10px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+/*充值*/
+.navmen{width: 1202px;margin: 20px auto;padding: 0 10px;}
+.navmen a{color: #333;}
+.recharge{padding: 0 15px;height: auto;}
+.rechargechange{margin-bottom: 20px;}
+.rechargechange a{float: left;padding:10px 12px;font-size: 16px;color: #333;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing:border-box;margin-right:25px;}
+.rechargechange a.active-tab{border-bottom:4px solid #ff5635;color: #ff5635;}
+.onlinedes .filed{margin: 10px 0;}
+.onlinedes .filed:before,.onlinedes .filed:after{display: block;content:"";clear: both;}
+.onlinedes .filed label{float: left;width:6.5%;text-align: right;margin: 0;line-height: 40px;}
+.onlinedes .filed p{float: left;width:91.5%;margin-left:2%;margin-bottom: 0;}
+.onlinedes .filed .flager{font-size: 24px;}
+.onlinedes .inmoney{width: 217px;background:url(../img/d_ico.png) no-repeat 10px center;padding: 2px 5px 2px 30px;background-size:11px ;font-size: 18px;margin-left: 0;}
+.onlinedes .radiocheck{display: inline-block;float: left;width: 230px;height: 41px;overflow: hidden;border: 1px solid #e1e1e1;margin:0 10px 10px 0;box-sizing: border-box;padding: 2px 5px;cursor: pointer;padding-left:5px;padding-top: 12px;}
+.onlinedes .radiocheck a{
+	color: #333;
+	line-height: 17px;
+    float: left;
+}
+.onlinedes .radiocheck .bankBg{
+	margin-right: 5px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/gs-icon.png) no-repeat center;
+	background-size:100% 100%;
+}
+.onlinedes .radiocheck img{vertical-align: text-bottom;display: inline-block;}
+.onlinedes .radiocheck.active{border: 2px solid #ff5635;background: url(../img/check_ico.png) no-repeat right top;}
+.orangebtn{background: #ff5635;border-radius: 4px;border: none!important;height: 45px;text-align: center;color: #fff;font-size: 18px;}
+.onlinedes .orangebtn{width: 230px;margin-left: 6.5%;margin-top:15px;}
+.onlinedes .filed .fgray{color:#808080;margin-left:8%;}
+.warmtips{margin:30px 0 30px 8%;color: #808080;}
+.warmtips .fblack{color: #333;}
+.fastdes .radiocheck{width: 357px;height: 74px;line-height: 45px;font-size: 18px;}
+.fastdes .radiocheck .floatR{
+	margin-right:10px;
+	font-size: 14px;
+}
+.fastdes .radiocheck img{vertical-align: middle;margin-left: 6px;margin-right: 22px;width: 48px;height: 48px;}
+.onlinedes .filedgreen .radiocheck.active{border: 2px solid #5ab647;background: url(../img/check_g_ico.png) no-repeat right top;}
+.fastdes .forma{line-height: 40px;}
+/*提现*/
+.useragreement{margin-left: 8%;}
+.useragreement input[type="checkbox"]{width: 16px;height: 16px;vertical-align: middle;margin:0 5px 0 0;}
+.useragreement .bluebtn{color: #01c0ff;margin-left: 10px;cursor: pointer;}
+.useragreement .useragreement-list{display: none;}
+.useragreement .fgray{color:#808080;}
+.limit{
+	width: 357px;
+	text-align: right;
+	margin-bottom: 20px;
+	margin-left: 95px;
+	color: #808080;
+}
+.mymessage .tab-content{
+	position: relative;
+	height: 676px;
+}
+.check-box{
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	background: url(../../assets/img/uncheckBox.png) no-repeat center;
+	margin-right: 8px;
+}
+.has-checked{
+	background: url(../../assets/img/checkBox.png) no-repeat center;
+}
+.voucherlist ul .bagtop .flarger{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

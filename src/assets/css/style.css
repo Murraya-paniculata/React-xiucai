@@ -1,0 +1,230 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-size: 16px!important;
+	font-family: "Hiragino Sans GB";
+}
+.contain-body{
+	width: 420px;
+	margin: 0 auto;
+}
+input{
+	outline: none;
+}
+img{
+	border: 0;
+	display: block;
+}
+.floatL{
+	float: left;
+}
+.floatR{
+	float: right;
+}
+.main-body{
+	width: 100%;
+	margin-top: -1px;
+	padding:16px 8px 10px 8px;
+	background: #ffa019;
+}
+.phoneNum{
+	background: #fff8e9;
+	border-radius: 11px;
+	color: #ee4745;
+	box-shadow: 0px 5px 5px #ff5906;
+	margin-bottom: 1.5rem;
+	padding: 20px 15px;
+}
+.phoneNum .name,.phoneNum .tel{
+	color: #ee4745 ;
+	font-weight: bold;
+}
+.phoneNum .tel{
+	font-family: arial;
+}
+.inputBox{
+	min-height: 3.2rem;
+	margin: 10px 0;
+}
+.inputBox input{
+	height: 100%;
+	border: 1px solid #f09015;
+	border-radius: 8px 9px;
+	width: 70%;
+	padding-left: 1rem;	
+	color: #000;
+}
+.inputBox span{
+	display: inline-block;
+	background: url(../img/icon.png) no-repeat center;
+	background-size:100% 100%;
+	color: #fff;
+	text-align: center;
+	height: 4rem;
+    line-height: 4rem;
+    width: 30%;
+    margin-top: -0.5rem;
+}
+.check{
+	width: 1.3rem;
+	height: 1.3rem;
+	background: url(../img/uncheck.png) no-repeat left center;
+	background-size:100% 100%;
+}
+.checked{
+	background: url(../img/checked.png) no-repeat left center;
+	background-size:100% 100%;
+}
+.deal{
+	color: #0d0d0d;
+	margin-left: 10px;
+	line-height: 1.4rem;
+}
+.deal a{
+	color: #00a8ff;
+	text-decoration: none;
+}
+.know{
+	background: #fffbf1;
+	border-radius: 11px;
+	box-shadow: 0px 5px 5px #ff5906;
+}
+.know .logo{
+	margin: 0 15px;
+	height: 4.8rem;
+	border-bottom: 1px solid #ffe398;
+	padding-top: 1.3rem;
+}
+.logo>div{
+	width:19rem;
+	margin: 0 auto;
+	height: 2.5rem;
+	color: #343434;
+	font-weight: bold;
+}
+.logo>div img{
+	height: 100%;
+	margin-right:10px;
+}
+.logo span{
+	color: #ff6446;
+}
+.know-body{
+	padding-bottom: 1rem;
+	margin-bottom: 10px;
+}
+.know-body div{
+	width: 90%;
+	height: 7rem;
+	background: url(../img/1.png) no-repeat center;
+	background-size:100% 100%;
+	margin: 0 auto;
+	color: #ff5635;
+	font-size: 1.1rem;
+}
+.know-body div span{
+	font-weight: bold;
+}
+.know-body div:nth-child(1){
+	margin-top: 1rem;
+	padding-left: 8rem;
+    padding-top: 1.8rem;
+    padding-right: 20px;
+}
+.know-body div:nth-child(2){
+	background: url(../img/2.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 1.5rem;
+}
+.know-body div:nth-child(3){
+	background: url(../img/3.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 8rem;
+}
+.know-body div:nth-child(4){
+	background: url(../img/4.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 1.5rem;
+}
+.know-body div:nth-child(5){
+	background: url(../img/5.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 8rem;
+}
+.know-body div:nth-child(6){
+	background: url(../img/6.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 1.5rem;
+}
+.know-body div:nth-child(7){
+	background: url(../img/7.png) no-repeat center;
+	background-size:100% 100%;
+	line-height: 7rem;
+	padding-left: 8rem;
+}
+.Hei4{
+	height: 3rem;
+	border: 1px solid #f09015;
+	border-radius: 8px;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.Hei4 input{
+	border: 0!important;
+	border-radius: 8px 0 0 8px;
+}
+.inputBox .Hei4 .getCode{
+	width: 30%;
+	border-radius: 0 8px 8px 0;
+	padding-left: 0;
+	text-align: center;
+	color: #ff6446;
+	border-left: 1px solid #f09015!important;
+	height: 2.3rem;
+	line-height: 2.3rem;
+	margin-top: 0.26rem;
+	background: #fff;
+}
+.complete{
+	background: url(../img/icon2.png) no-repeat center;
+	background-size:100% 100%;
+	height: 4rem;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 4rem;
+	color: #fff;
+	margin-top: 15px;
+}
+.congratulate{
+	height: 777px;
+	/*height: 100%;*/
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size:100% 100%;
+	position: relative;
+}
+.congratulate>div{
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	font-size: 1.4rem;
+	text-align: center;
+	/*top:50%;*/
+	top:47%;
+}
+.congratulate .toLoad{
+	font-size: 1.1rem;
+}
+.congratulate img{
+	margin: 0 auto;
+	width: 11rem;
+    height: 11rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

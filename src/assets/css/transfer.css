@@ -1,0 +1,278 @@
+.red{
+    color: #ff6446!important;
+}
+.fontBold{
+    font-weight: bold;
+}
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.margin0{
+    margin-top: 0!important;
+}
+.transferTitle{
+    height:40px;
+    line-height: 40px;
+    background: #f2f2f2;
+    color: #343434;
+    font-size: 16px;
+    padding-left: 21px;
+    margin: 0 13px;
+    margin-top: 24px;
+}
+.originCon{
+    height:183px;
+    padding: 31px 0 41px 292px;
+}
+.transferCon{
+    padding: 38px 0 63px 292px;
+}
+.originCon>div,.applyConfirmTop>div{
+    height:14px;
+    line-height: 14px;
+    color: #343434;
+    margin-bottom: 33px;
+}
+.transferCon>div{
+    height:16px;
+    line-height: 16px;
+    color: #343434;
+}
+.originCon>div:last-child{
+    margin-bottom: 0;
+}
+.originCon>div span:first-child,.transferCon>div span:first-child,.applyConfirmTop>div span:first-child{
+    color: #808080;
+    display: inline-block;
+    width: 129px;
+}
+.hei40>li{
+    width: 217px;
+    padding-right: 16px;
+    border: 1px solid #e3e3e3;
+}
+.hei40>li input{
+    height:36px;
+    border: none!important;
+    margin: 1px;
+    width: 87%;
+    text-align: right;
+    margin-right: 5px;
+}
+.hei40{
+    height: 40px!important;
+    display: flex;
+    align-items: center;
+}
+.transferCon>div:nth-child(2){
+    margin: 23px 0 6px 0;
+}
+.transferCon>div:nth-child(3){
+    margin: 0 0 28px 130px;
+}
+.transferCon>div:nth-child(5){
+    margin: 24px 0 25px 0;
+}
+.transferCon>div:nth-child(7){
+    display: flex;
+    align-items: center;
+    margin: 37px 0 40px 0;
+}
+.transferCon>div:nth-child(7) span:last-child{
+    font-size: 18px;
+}
+.applyBtn{
+    width: 230px;
+    height:45px;
+    color: #fff!important;
+    font-size: 18px;
+    background: #ff5635;
+    border: none!important;
+    outline: none!important;
+}
+.transferCon>div:nth-child(1) img,.transferCon>div:nth-child(4) img{
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.transferCon>div:nth-child(1),.transferCon>div:nth-child(4){
+    position: relative;
+}
+.white{
+    position: absolute;
+    top: -86px;
+    left: -30px;
+    display: inline-block;
+    width: 257px;
+    padding: 10px 0 0 14px;
+    line-height: 20px;
+    height:72px;
+    color: #fff;
+    background: url(../img/question1.png) no-repeat center;
+    display: none;
+}
+.white1{
+    top: -108px;
+    left: -16px;
+    height:92px;
+    background: url(../img/question2.png) no-repeat center;
+}
+.endTime input{
+    text-align: left!important;
+    width: 201px!important;
+    text-indent: 16px;
+    background: url(../img/date.png) no-repeat right center;
+}
+.applyConfirm{
+    font-size: 16px;
+    font-weight: bold;
+    color: #343434;
+    height:16px;
+    line-height: 16px;
+    margin: 36px 0 20px 22px;
+}
+.applyConfirmTop{
+    height:273px;
+    width: 903px;
+    padding: 30px 0 27px 34px;
+    background: #fffbfa;
+    border: 1px solid #ffcac0;
+    margin: 0 auto;
+}
+.applyConfirmTop>div{
+    margin-bottom: 36px;
+}
+.applyConfirmTop>div span:first-child{
+    width: 157px;
+}
+.applyConfirmTop>div:last-child{
+    margin-bottom: 0;
+}
+.applyConfirmBot{
+    height:80px;
+    padding-right: 16px;
+    width: 903px;
+    background: #fffbfa;
+    border: 1px solid #ffcac0;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 0;
+}
+.applyConfirmBot .applyBtn{
+    width: 180px;
+}
+.applyFailCon{
+    width: 253px;
+    height:157px;
+}
+.applyFailCon div:first-of-type{
+    font-size: 22px;
+    height:22px;
+    line-height: 22px;
+    color: #ff5635;
+    font-weight: bold;
+    text-align: center;
+    margin: 22px 0 25px 0;
+}
+.applyFailCon div:last-of-type{
+    color: #929292;
+}
+.applyFail{
+    height:752px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list{
+    margin-bottom: 9px;
+}
+.money{
+    width: 30%;
+}
+.deadline{
+    width: 20%;
+}
+.goInvestment, .sell-out, .pre-sell{
+    margin-left: 0;
+}
+.noBuy{
+    color: #585858!important;
+}
+.productDetail-top{
+    min-height: 344px;
+}
+.detail-right{
+    height:344px;
+}
+.detail-left .refund, .detail-left .carry-interest{
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.detail-left .carry-interest1{
+    margin-top: 27px;
+}
+.buyMon{
+    overflow: hidden;
+    margin: 30px 0;
+}
+.productDetail-bottom{
+    margin-top: 20px;
+    padding-right: 0.5px;
+}
+.whatTransfer{
+    position: absolute;
+    color: #60b025;
+    height:20px;
+    top: 2px;
+    right: -25px;
+}
+.whatTransfer img{
+    display: inline-block;
+    margin-right: 5px;
+}
+.payConfirm{
+    height:463px;
+}
+.payConfirm-con .buySum .floatR{
+    color: #333333;
+    font-size: 16px;
+}
+.pay .floatR{
+    color: #ff5635;
+    font-size: 24px;
+    margin-top: -6px;
+}
+.check-box{
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    background: url(../img/checkBox.png) no-repeat center;
+    margin-right: 8px;
+
+}
+.uncheckBox{
+    background: url(../img/uncheckBox.png) no-repeat center;
+}
+.hasRead{
+    color: #343434;
+    margin: 47px 0 12px 30px;
+}
+.deal a{
+    color: #5893e6;
+}
+.deal{
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.agree{
+    line-height: 22px;
+    color: #808080;
+    margin: -2px 30px 0 30px;
+}

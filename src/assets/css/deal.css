@@ -1,0 +1,63 @@
+body,html{
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family:"微软雅黑";
+}
+.deal-con,.riskBook{
+	width: 1202px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.dealCon,.riskBookCon{
+	border: 1px solid #e9e9e9;
+	background: #fff;
+	padding: 0 37px;
+}
+.dealTitle,.riskBookTitle{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 42px;
+	margin-top: 52px;
+}
+.riskBookTitle{
+	margin-bottom: 20px;
+}
+.first-con p,.second-con p,.third-con p,.firstCon p,.secondCon p,.thirdCon p{
+	line-height: 30px;
+}
+.second-con p{
+	margin-bottom: 20px;
+}
+.firstCon>p,.secondCon>p,.thirdCon>p{
+	margin-bottom: 36px;
+}
+.firstCon span,.secondCon span,.thirdCon span{
+	font-weight: bold;
+}
+/*.first-con span,.second-con span,.third-con{
+	font-weight: bold;
+}*/
+.size-bold,.sizeBold{
+	font-weight: bold;
+}
+.size-bold{
+	margin: 18px 0 20px 0;
+}
+.sizeBold{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 46px 0;	
+	padding-top: 33px;
+}
+.block-margin{
+	margin-bottom: 15px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.firstCon>div p,.secondCon>div p,.thirdCon>div p{
+	margin-bottom: 17px;	
+}
