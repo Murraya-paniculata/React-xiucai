@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Index from '../../../container/index/index'
 class NavHeader extends React.Component{
 	constructor(props){
 		super(props)
@@ -43,13 +44,22 @@ class NavHeader extends React.Component{
 			{/*// <router-link :to="{name:'userCenter'}">
 								// 	<a>欢迎,{{username|phoneHideMiddle}}</a>
 								// </router-link>*/}
-					<a>[ 安全退出 ]</a>
+					<a href="http://www.baidu.com">[ 安全退出 ]</a>
 					</div>)
 		const login = (<div>
 			{/*<router-link :to="{name:'loginRegister',query:{type:'login'}}"><a>登录</a></router-link>
 		<router-link :to="{name:'loginRegister',query:{type:'register'}}"><a>注册</a></router-link>*/}
-				<a href="">登錄</a>
-				<a href="">注册</a>
+
+			<Router>
+				<div>
+					<Link to='/'>登录</Link>
+					{/*<Link to="/reset">注册</Link>*/}
+					<Route exact path="/" component={Index} />
+					{/*<Route path="/about" component={About} />*/}
+					{/*<Route path="/topics" component={Topics} />*/}
+				</div>
+			</Router>
+
 			</div>)
 		return (
 			<div>
@@ -60,7 +70,7 @@ class NavHeader extends React.Component{
 						{this.state.isLogin?logout:login}
 						<a href={`${this.state.siteSet.siteDomain}+/site/help/0`}>帮助中心</a>
 						<a href={`${this.state.siteSet.siteDomain}+/site/help/0`}>新手指南</a>
-						<a href="javascript:;" className="phone">手机端</a>
+						<a href="http://www.baidu.com" className="phone">手机端</a>
 						</div>
 						<div className="phoneIcon">
 							<div>扫描下载东金秀财app</div>
@@ -69,17 +79,17 @@ class NavHeader extends React.Component{
 				</div>
 				<div className="navBar">
 					<div className="nav-con">
-						{this.state.siteBarList.map(item=>{
+						{this.state.siteBarList.map((item,index)=>{
 							return (
-								<div className="nav-right floatR" v-for="siteBar in siteBarList">
+								<div key={index} className="nav-right floatR">
 									{/*<router-link :to="{name:siteBar.barUrl}"><li><a>{{siteBar.barName}}</a></li></router-link>*/}
-									<a>{item.barName}</a>
+									<a href="http://www.baidu.com" className="hover">{item.barName}</a>
 								</div>
 							)
 						})}
 						<div className="nav-left floatL">
 							{/*<router-link :to="{name:'home'}"><a> <img :src="siteSet.logoUrl" alt="" style="cursor: pointer;"/></a></router-link>*/}
-							<a>
+							<a href="http://www.baidu.com">
 								<img src={this.state.siteSet.logoUrl} alt=""/>
 							</a>
 						</div>
@@ -88,5 +98,4 @@ class NavHeader extends React.Component{
 		</div>
 	)}
 }
-
 export default NavHeader
