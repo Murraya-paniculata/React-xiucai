@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Index from '../../../container/index/index'
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import Index from '../../../container/index/index'
 class NavHeader extends React.Component{
 	constructor(props){
 		super(props)
@@ -40,34 +40,34 @@ class NavHeader extends React.Component{
 		}
 	}
 	render(){
-		const logout = (<div>
-			{/*// <router-link :to="{name:'userCenter'}">
-								// 	<a>欢迎,{{username|phoneHideMiddle}}</a>
-								// </router-link>*/}
-					<a href="http://www.baidu.com">[ 安全退出 ]</a>
-					</div>)
-		const login = (<div>
-			{/*<router-link :to="{name:'loginRegister',query:{type:'login'}}"><a>登录</a></router-link>
-		<router-link :to="{name:'loginRegister',query:{type:'register'}}"><a>注册</a></router-link>*/}
-
-			<Router>
-				<div>
-					<Link to='/'>登录</Link>
-					{/*<Link to="/reset">注册</Link>*/}
-					<Route exact path="/" component={Index} />
-					{/*<Route path="/about" component={About} />*/}
-					{/*<Route path="/topics" component={Topics} />*/}
-				</div>
-			</Router>
-
-			</div>)
+		// const logout = (<div>
+		// 	{/*// <router-link :to="{name:'userCenter'}">
+		// 						// 	<a>欢迎,{{username|phoneHideMiddle}}</a>
+		// 						// </router-link>*/}
+		// 			<a href="http://www.baidu.com">[ 安全退出 ]</a>
+		// 			</div>)
+		// const login = (<div>
+		// 	{/*<router-link :to="{name:'loginRegister',query:{type:'login'}}"><a>登录</a></router-link>
+		// <router-link :to="{name:'loginRegister',query:{type:'register'}}"><a>注册</a></router-link>*/}
+		//
+		// 	<Router>
+		// 		<div>
+		// 			<Link to='/'>登录</Link>
+		// 			{/*<Link to="/reset">注册</Link>*/}
+		// 			<Route exact path="/" component={Index} />
+		// 			{/*<Route path="/about" component={About} />*/}
+		// 			{/*<Route path="/topics" component={Topics} />*/}
+		// 		</div>
+		// 	</Router>
+		//
+		// 	</div>)
 		return (
 			<div>
 				<div className="top">
 					<div className="top-con">
 						<div className="floatL">客服热线：{this.state.siteSet.hotline}</div>
 						<div className="floatR top-right">
-						{this.state.isLogin?logout:login}
+						{/*{this.state.isLogin?logout:login}*/}
 						<a href={`${this.state.siteSet.siteDomain}+/site/help/0`}>帮助中心</a>
 						<a href={`${this.state.siteSet.siteDomain}+/site/help/0`}>新手指南</a>
 						<a href="http://www.baidu.com" className="phone">手机端</a>

@@ -13,7 +13,7 @@ import './App.css';
 // import Finance from './container/finance/Finance'
 // import WoYaoTouZi from './container/woyaotouzi/woyaotouzi'
 // import AboutWe from './container/AboutWe/AboutWe'
-import Index from './container/index/index'
+import Index from './container/Index/index'
 
 class App extends Component {
 	constructor(props){

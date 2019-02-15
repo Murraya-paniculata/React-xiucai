@@ -1,5 +1,5 @@
 import React from 'react'
-import NavHeader from '../../components/common/Header/Header'
+import NavHeader from '../../components/common/Header/index'
 import NavFooter from '../../components/common/Footer/Footer'
 import Banner from '../../components/Banner/Banner'
 
@@ -23,4 +23,4 @@ class Index extends React.Component {
 
 }
 
-export default Index
+export default Index;
