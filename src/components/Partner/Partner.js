@@ -49,12 +49,11 @@ class Partner extends React.Component {
 					{this.state.cooperateList.map((cooperate,index) => {
 						return (
 							<div key={index} className="floatL">
-								<a href={cooperate.cooperateUrl} target="_blank"><img src={cooperate.cooperateImg}
-																					  alt=""/>
+								<a href={cooperate.cooperateUrl} target="_blank">
+									<img src={cooperate.cooperateImg} alt=""/>
 								</a>
-							</div>
-						)
-					})}
+							</div>)}
+						)}
 				</div>
 			</div>
 		)

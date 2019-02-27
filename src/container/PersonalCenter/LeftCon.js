@@ -42,9 +42,9 @@ class LeftCon extends React.Component {
 				<div className="bar-bot">
 					<div className="bar-bot-top"><a href="http://www.baidu.com">个人中心</a></div>
 				</div>
-				<div className="bar-bot-list">
+				<div className="bar-bot-list personal">
 					<ul>
-						<li><a href="http://www.baidu.com">我的资产</a></li>
+						<li className="hover"><a href="http://www.baidu.com">我的资产</a></li>
 						<li><a href="http://www.baidu.com">银行账户</a></li>
 						<li><a href="http://www.baidu.com">交易记录</a></li>
 						<li><a href="http://www.baidu.com">我的礼包</a></li>

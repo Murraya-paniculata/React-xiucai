@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Router from './container/Router/Router'
 import * as serviceWorker from './serviceWorker';
-import './assets/vendor/bootstrap/css/bootstrap.min.css'
-// import './assets/vendor/plugins/layer/skin/layer.css'
-import './assets/css/common.css'
-import './assets/css/inside.css'
+import './assets/vendor/bootstrap/css/bootstrap.min.css';
+import './assets/css/common.css';
+import './assets/css/inside.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Router />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to Register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();

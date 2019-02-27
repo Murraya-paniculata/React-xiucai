@@ -1,6 +1,9 @@
 import React from 'react'
 import LeftCon from '../../container/PersonalCenter/LeftCon'
 import RightCon from '../../container/PersonalCenter/RightCon'
+// import NavHeader from "../Index";
+import NavHeader from '../../components/common/Header'
+import NavFooter from '../../components/common/Footer/Footer'
 
 class PersonalCenter extends React.Component {
 	constructor(props) {
@@ -13,9 +16,13 @@ class PersonalCenter extends React.Component {
 	}
 	render() {
 		return (
-			<div className="personal-con">
-				<LeftCon/>
-				<RightCon/>
+			<div>
+				<NavHeader/>
+				<div className="personal-con">
+					<LeftCon/>
+					<RightCon/>
+				</div>
+				<NavFooter/>
 			</div>
 		)
 	}

@@ -10,7 +10,7 @@ import {
   Indicator,Toast,
   MessageBox
 } from 'mint-ui'
-import router from '../../router/index'
+import router from '../../Router/index'
 
 
 axios.defaults.baseURL = window.location.protocol + "//" + window.location.host + '/';
@@ -52,7 +52,7 @@ axios.interceptors.response.use(
       Toast("会话过期，请重新登录!");
       utils.login();
 
-      // router.replace({
+      // Router.replace({
       //   name: 'login'
       // })
       // throw new Error()

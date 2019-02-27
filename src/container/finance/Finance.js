@@ -1,5 +1,7 @@
 //资产认购
 import React from 'react'
+import NavHeader from '../../components/common/Header';
+import NavFooter from '../../components/common/Footer/Footer'
 
 class Finance extends React.Component {
 	constructor(props) {
@@ -34,6 +36,7 @@ class Finance extends React.Component {
 	render() {
 		return (
 			<div>
+				<NavHeader></NavHeader>
 				<div className="financeBg">
 					<div className="finance-bg">
 
@@ -133,6 +136,7 @@ class Finance extends React.Component {
 
 					</div>
 				</div>
+				<NavFooter></NavFooter>
 			</div>
 		)
 	}
